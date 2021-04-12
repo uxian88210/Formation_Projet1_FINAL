@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="FR">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Le Chow-Chow</title>
+		<link rel="icon" type="image/png" sizes="16x16" href=" img/0logoOnglet.png">
+		<!--fichier css-->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/mainResp.css">
+		<!--fichier js et intergration J.quary-->
+		<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+		<script src="js/bootstrap.bundle.js"></script>
+	</head>
+	<body>
+		<header class="relative mina" id="haut"><!-- image sur toute la largeur-->
+			<figure class="text-center mobilebackground">	
+				<img class="img-fluid ombre mobileCollapse" src="img/10accueil.jpg" alt="">
+			</figure>
+			<div class="absolute menu">
+				<div class="bleu70">
+					<div class="container containerAccueil"> <!--icone + menu de navigation-->
+						<div class="row rectificationRow">
+							<a class="col-1 justify-content-center rectificationMenu" href="index.html"><img class="logo" src="img/0logo.png" alt=""/></a>
+							<div class="col-10 rectificationMenu">
+								<div class="container menucentrer">
+									<h1 class="text-center">Les meutes des Forets Vosgiennes</h1>
+									<nav class="navbar navbar-expand-lg">
+										<span class="navbar-brand"></span> <!--laisse le bouton a gauche si pas de navbar-brand-->
+										<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+										  	<span class="navbar-toggler-icon"></span>
+										</button>
+										<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+											<ul class="navbar-nav text-center">
+												<li class="nav-item bleu70 d-flex align-items-center"><a class="nav-link" href="index.html">Accueil</a></li>
+												<li class="nav-item bleu70 d-flex align-items-center"><a class="nav-link" href="races.html">Quelles races ?</a></li>
+												<li class="nav-item bleu70 d-flex align-items-center"><a class="nav-link" href="galerie.html">Galerie</a></li>
+												<li class="nav-item bleu70 d-flex align-items-center"><a class="nav-link" href="chiots.html">Nos Chiots</a></li>
+												<li class="nav-item bleu70 d-flex align-items-center"><a class="nav-link" href="services.html">Nos services</a></li>
+												<li class="nav-item bleu70 d-flex align-items-center"><a class="nav-link" href="contact.html">Infos / Contact</a></li>
+											</ul>		<!--d-flex et align-item pour centrer les element dans les bouton lors de la redution de la page-->
+										</div>
+									</nav>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section class="container m-b2">
+			<div class="row justify-content-center">
+				<h2 class="titre mina">Le Chow-Chow</h2>
+			</div>
+			<div class="row">
+				<p>
+					Avec sa crinière qui évoque un lion et son expression un peu renfrognée, le Chow-Chow est un chien aux caractéristiques physiques notables. Sa grosse tête, sa langue bleue et son pelage très dense ne laissent pas indifférent. Le Chow Chow n’est pas le plus tendre des chiens. Non pas qu’il soit agressif, loin de là, mais ce canidé chinois aux 2 variétés (poil long et poil court) ne manifeste que très rarement son attachement à son maître. Pourtant, il est réel. Le Chow Chow est fidèle et sincère, mais dispose d’un caractère difficile et d’un fort tempérament. Il n’est pas à mettre dans les mains de néophyte.
+				</p>
+			</div>
+		</section>
+		<div class="bleu70"> <!--la navbar-->
+			<div class="container m-b4">
+				<div class="row margeSousMenuEntier">
+					<div class="navbat navbar-expand-lg w-100 d-flex align-items-center">
+						<span class="navbar-brand"></span> <!--laisse le bouton a gauche si pas de navbar-brand-->
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						  	<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse w-100" id="navbar2">
+							<ul class="navbar-nav text-center w-100 justify-content-between">
+								<li class="col nav-item bleu70 d-flex align-items-center">
+									<a href="#caractere" class="navlink container">
+										<div class="row d-flex justify-content-center margeSousMenu">
+											<img src="ico/Icone_Caractere.png" alt="">
+										</div>
+										<div class="row d-flex justify-content-center">
+											<p>Caractere</p>
+										</div>
+									</a>
+								</li>
+								<li class="col nav-item bleu70 d-flex align-items-center">
+									<a href="#education" class="navlink container">
+										<div class="row d-flex justify-content-center margeSousMenu">
+											<img src="ico/Icone_Education.png" alt="">
+										</div>
+										<div class="row d-flex justify-content-center">
+											<p>Education</p>
+										</div>
+									</a>
+								</li>
+								<li class="col nav-item bleu70 d-flex align-items-center">
+									<a href="#entretien" class="navlink container">
+										<div class="row d-flex justify-content-center margeSousMenu">
+											<img src="ico/Icone_Entretien.png" alt="">
+										</div>
+										<div class="row d-flex justify-content-center">
+											<p>Entretien</p>
+										</div>
+									</a>
+								</li>
+								<li class="col nav-item bleu70 d-flex align-items-center">
+									<a href="#prix" class="navlink container">
+										<div class="row d-flex justify-content-center margeSousMenu">
+											<img src="ico/Icone_prix.png" alt="">
+										</div>
+										<div class="row d-flex justify-content-center">
+											<p>Prix</p>
+										</div>
+									</a>
+								</li>
+								<li class="col nav-item bleu70 d-flex align-items-center">
+									<a href="#alimentation" class="navlink container">
+										<div class="row d-flex justify-content-center margeSousMenu">
+											<img src="ico/Icone_Alimentation.png" alt="">
+										</div>
+										<div class="row d-flex justify-content-center">
+											<p>Alimentation</p>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>			
+			</div>
+		</div> <!--Fin de la navbar secondaire-->
+		<div class="container">
+			<div class="row">
+				<div class="col-6">
+					<img class="img-fluid" src="img/10general.jpg" alt="">
+				</div>
+				<div class="col-6">
+					<div class="row d-flex justify-content-between">
+						<div class="col-4">
+							<div class="row">
+								<div class="col">
+									<div class="row">
+										<h6 class="mina">Type de poil :</h6>
+									</div>
+									<div class="row">
+										<p>
+											Long
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<div class="row">
+										<h6 class="mina">Gabarit :</h6>
+									</div>
+									<div class="row">
+										<p>
+											Moyen
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-4">
+							<div class="row">
+								<div class="col">
+									<div class="row">
+										<h6 class="mina">Origine :</h6>
+									</div>
+									<div class="row">
+										<p>
+											Chine
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<div class="row">
+										<h6 class="mina">Forme de la tête :</h6>
+									</div>
+									<div class="row">
+										<p>
+											Ronde
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row justify-content-center">
+						<h3>Poids et Tailles :</h3>
+					</div>
+					<div class="row">
+						<table class="table">
+							<thead>
+								<tr>
+							    	<th scope="col" class="mina">Sexe</th>
+							    	<th scope="col" class="mina">Poid</th>
+							    	<th scope="col" class="mina">Taille</th>
+							 	</tr>
+							</thead>
+							<tbody>
+								<tr>
+							    	<th scope="row" class="mina">Female</th>
+							    	<td>De 24 kg à 28 kg</td>
+							    	<td>De 46 cm à 51 cm</td>
+								</tr>
+								<tr>
+							   		<th scope="row" class="mina">Male</th>
+							   		<td>De 20 kg à 30 kg</td>
+							    	<td>De 48 cm à 56 cm</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+		<section class="container m-b16">
+			<div class="row m-t4 m-b2">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Historique de la race Chow-Chow</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					Le Chow-Chow est originaire d'Asie Centrale. Il y a quelques siècles il était élevé en tant que chien à viande en Asie ou pour sa fourrure Les Anglais l'ont ensuite importé en Europe depuis la Mongolie, sans doute au 19e siècle. Son nom viendrait d'une inscription en mandarin signifiant "marchandises diverses", car il fut amené en même temps que des produits exotiques. Il descend des chiens spitz comme les nordiques, mais aussi des mastiffs. Les Français le découvrent réellement dans les années 1920, avec l'apparition d'un Chow-Chow Club de France, depuis devenu Chow-Chow Club Français. Ce n'est qu'après la deuxième guerre mondiale que la race devient populaire.
+				</p>
+			</div>
+			<div class="row m-t4 m-b2">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Particularités physiques du chien</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					<span class="gras" >Son poil :</span> court, très abondant, lisse et légèrement pelucheux ; dans la version longue (plus fréquente), le poil est également fourni et gonflé.<br>
+					<span class="gras" >Sa couleur :</span> la robe est obligatoirement monochrome (noire, rouge, fauve, bleue, crème ou blanche). Des nuances peuvent apparaître, en particulier sous la queue et au niveau de la culotte, souvent plus claires.<br>
+					<span class="gras" >Sa tête :</span> large, volumineux et plat.<br>
+					<span class="gras" >Ses oreilles :</span> de taille modérée et de forme arrondie, elles sont épaisses, écartées et bien droites sur la tête. Les pointes sont dirigées vers l'avant et tendent à converger.<br>
+					<span class="gras" >Ses yeux :</span> leur taille est normalement moyenne. Ils sont ovales, nets et un peu enfoncés. Normalement foncés, ils peuvent aussi être de la couleur de la robe chez les Chow-Chow bleus et fauves.<br>
+					<span class="gras" >Son corps :</span> le corps est compact, horizontal, court et fort. La poitrine est large et basse, les épaules musclées. Les antérieurs sont droits et les membres postérieurs aussi dépourvus d'angulation que possible (de là la démarche particulièrement guindée du Chow-Chow)<br>
+					<span class="gras" >Sa queue :</span> elle est attachée haut et portée bien renversée, sur le dos.
+				</p>
+			</div>				
+			<div class="row m-t4 m-b2" id="caractere">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Comportement de l'animal avec les autres</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					Le Chow-Chow est un chien au caractère hors-norme. S'il apprécie beaucoup son maître, il n'aime guère jouer ni manifester ouvertement son affection. Il est distant et semble très orgueilleux. Il tolère les enfants, mais n'est pas adapté aux activités avec eux. C'est un bon gardien, qui aboie peu. Il protège son territoire. Il n'apprécie pas que des inconnus le caressent sur la tête : ce geste est réservé à ses maîtres. Il s'entend mal avec les autres chiens. Il est loyal, fidèle, surtout avec son maître, mais particulièrement distant. Il ne montre que rarement son affection. Il est fier, indépendant mais reste très calme. 
+				</p>
+			<div class="row m-t4 m-b2" id="education">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Education du Chow-Chow</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					Son éducation doit être prise le plus tôt possible. Le Chow Chow n’est pas un chient à mettre dans les mains de tout le monde. Il faut une certaine expérience pour l’appréhender et l’éduquer. Son caractère ne facilite pas les choses. Il faut faire preuve de rigueur, de fermeté mais aussi savoir se montrer doux et délicat. Son maître doit se montrer confiant et maîtriser ses gestes. Car le Chow Chow n’hésitera pas à prendre le dessus s’il se sent en position de force. Des règles strictes doivent être prises car ce canidé n’aime pas, au premier abord, l’autorité humaine.
+				</p>
+			</div>
+			<div class="row m-t4 m-b2">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Conditions de vie d'un Chow-Chow</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					Le Chow-Chow supporte assez bien la solitude. Silencieux, il n'a pas un besoin permanent d'exercice. Toutefois, il sera mieux dans une maison qu'en appartement. Son caractère original nécessite un maître attentif, ferme et très tranquille. Le Chow Chow s’accommode parfaitement à la vie en appartement. Il est très propre, ne se montre pas remuant et n’aboie que très peu. Il est donc parfait pour la vie en mitoyenneté. Il se fera également parfaitement à la vie à la campagne, où il ira avec plaisir courir à l’extérieur s’il dispose d’un jardin.
+				</p>
+			</div>
+			<div class="row m-t4 m-b2">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Santé de votre compagnon</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					C'est un chien très robuste, dont les seuls vrais soucis peuvent être liés à la sélection. A noter toutefois que la robe épaisse dont ils bénéficient peut, lorsqu'elle est démesurée (il s'agit alors d'un défaut), les incommoder en cas de grande chaleur. De même, ils se fatiguent vite en cas de jeu. Le Chow-Chow vit en général de 9 à 12 ans. Le Chow Chow est sujet à l’embonpoint. Il convient donc de veiller attentivement à son régime alimentaire. De plus, ce chien peut développer une dysplasie de la hanche et du coude. Il faudra donc veiller à modérer son activité physique durant les premiers mois de sa vie. Par ailleurs, il ne pose aucun autre problème de santé et n’a pas de maladie héréditaire.<br>
+					L'espérance de vie d'un Chow Chow se situe, en moyenne, entre 9 ans et 12 ans.
+				</p>
+			</div>
+			<div class="row m-t4 m-b2" id="entretien">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Entretien et hygiène de votre chien</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					Lors de ses mues, le Chow-Chow a besoin d'être brossé très régulièrement. C'est une tâche nécessaire quelle que soit la longueur du poil, mais elle est bien entendu plus prenante pour les individus aux poils longs. C'est la seule solution pour éviter la formation de nœuds.
+				</p>
+				<p>
+					Le Chow-Chow peut être lavé régulièrement, mais il doit impérativement être parfaitement rincé et séché au sèche-cheveux après chaque lavage. En plus d’un brossage régulier, plus intense pour la variété à poil long, le Chow Chow doit avoir ses yeux être nettoyés avec soin et méticuleusement. En effet, cette race de chien a tendance à pleurer assez souvent. De plus, son poil doit également être passé au peigne fin car il a tendance à développer de l’eczéma.
+				</p>
+			</div>
+			<div class="row m-t4 m-b2" id="prix">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Prix et budget du chien</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					Le prix d'achat d'un Chow Chow se situe entre 1000€ et 1500€.<br>
+					Le coût d'entretien annuel d'un Chow Chow se situe entre 1350€ et 1400€.
+				</p>
+			</div>
+			<div class="row m-t4 m-b2" id="alimentation">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Alimentation du Chow-Chow</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					En raison de quelques problèmes gastriques qu’il peut développer, il est important de donner 2 à 3 repas par jour au Chow Chow plutôt qu’un seul. Son alimentation doit être composée majoritairement de viande, que l’on peut donner dans son plus simple aspect ou par le biais de croquettes adaptées et de haute qualité. Son régime alimentaire peut donc être à base de nourriture industrielle ou humaine.
+				</p>
+			</div>
+			<div class="row m-t4 m-b2">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Activité physique du Chow-Chow</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					Le Chow-chow est un chien très calme, pour qui les regards comptent davantage que les jeux. Ce n’est pas un chien spécialement très sportif. Il n’est pas du tout joueur et donc ne pourra pas se dépenser physiquement par le jeu. L’unique moyen réside en plusieurs sorties quotidiennes. Elles sont réellement bénéfiques car sans cela, il aura tendance à s’encroûter et à favoriser l’apparition d’une obésité.
+				</p>
+			</div>
+		</section>
+		<footer class="fondNoir">
+			<div class="container">
+				<div class="row  justify-content-around relative">
+					<!--ajouter le Shiba ici-->
+					<div class="absolute shibaDroite"><!--Shiba-->
+						<a href="#haut"><img class="img-fluid" data-toggle="tooltip" data-placement="left" title="Je vous accompagne jusqu'en haut ?" src="img/0shiba.png" alt=""></a>
+					</div>
+					<div class="col-6 center">
+						<p><a href="plan.html">Plan du site</a></p>
+						<p><a href="mentionsLegals.html">Mentions légales</a></p>
+						<hr class="fondBlanc">
+						<p><a href="contact.html#contact">38 rue des sapin 88210 Saint Stail</a></p> <!--lien redirigent vers un carte google maps? ou vers la page contact-->
+						<p>
+							<img src="ico/0marquednegatif28x28.png" alt="">
+							<a href="#">Les meutes des Forets Vosgiennes</a>
+						</p>
+					</div>
+					<div class="col-4 icone d-flex align-items-center justify-content-around">
+						<a href="#"><img src="ico/Facebook.png" alt=""></a>
+						<a href="#"><img src="ico/Instagrame.png" alt=""></a>
+						<a href="#"><img src="ico/Twitter.png" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="FR">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Le Shiba</title>
+		<link rel="icon" type="image/png" sizes="16x16" href=" img/0logoOnglet.png">
+		<!--fichier css-->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/mainResp.css">
+		<!--fichier js et intergration J.quary-->
+		<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+		<script src="js/bootstrap.bundle.js"></script>
+	</head>
+	<body>
+		<header class="relative mina" id="haut"><!-- image sur toute la largeur-->
+			<figure class="text-center mobilebackground">	
+				<img class="img-fluid ombre mobileCollapse" src="img/9accueil.jpg" alt="">
+			</figure>
+			<div class="absolute menu">
+				<div class="bleu70">
+					<div class="container containerAccueil"> <!--icone + menu de navigation-->
+						<div class="row rectificationRow">
+							<a class="col-1 justify-content-center rectificationMenu" href="index.html"><img class="logo" src="img/0logo.png" alt=""/></a>
+							<div class="col-10 rectificationMenu">
+								<div class="container menucentrer">
+									<h1 class="text-center">Les meutes des Forets Vosgiennes</h1>
+									<nav class="navbar navbar-expand-lg">
+										<span class="navbar-brand"></span> <!--laisse le bouton a gauche si pas de navbar-brand-->
+										<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+										  	<span class="navbar-toggler-icon"></span>
+										</button>
+										<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+											<ul class="navbar-nav text-center">
+												<li class="nav-item bleu70 d-flex align-items-center"><a class="nav-link" href="index.html">Accueil</a></li>
+												<li class="nav-item bleu70 d-flex align-items-center"><a class="nav-link" href="races.html">Quelles races ?</a></li>
+												<li class="nav-item bleu70 d-flex align-items-center"><a class="nav-link" href="galerie.html">Galerie</a></li>
+												<li class="nav-item bleu70 d-flex align-items-center"><a class="nav-link" href="chiots.html">Nos Chiots</a></li>
+												<li class="nav-item bleu70 d-flex align-items-center"><a class="nav-link" href="services.html">Nos services</a></li>
+												<li class="nav-item bleu70 d-flex align-items-center"><a class="nav-link" href="contact.html">Infos / Contact</a></li>
+											</ul>		<!--d-flex et align-item pour centrer les element dans les bouton lors de la redution de la page-->
+										</div>
+									</nav>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section class="container m-b2">
+			<div class="row justify-content-center">
+				<h2 class="titre mina">Le Shiba</h2>
+			</div>
+			<div class="row">
+				<p>
+					Le Shiba Inu est un chien vif et très intelligent. Petit, mais bien proportionné, il est doté d’une forte personnalité. Malgré son caractère indépendant, il est très fidèle et protecteur.  Il n’est pas le plus câlin des chiens, mais possède de nombreuses qualités qui raviront petits et grands. Il est sincère et fidèle dans son approche comme dans sa démarche. Il est cependant difficile à éduquer car il n’obéit pas facilement. Sa santé et son entretien sont des atouts car ils ne demandent pas beaucoup de temps. Enfin, seul principal défaut : c’est un aboyeur né.
+				</p>
+			</div>
+		</section>
+		<div class="bleu70"> <!--la navbar-->
+			<div class="container m-b4">
+				<div class="row margeSousMenuEntier">
+					<div class="navbat navbar-expand-lg w-100 d-flex align-items-center">
+						<span class="navbar-brand"></span> <!--laisse le bouton a gauche si pas de navbar-brand-->
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						  	<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse w-100" id="navbar2">
+							<ul class="navbar-nav text-center w-100 justify-content-between">
+								<li class="col nav-item bleu70 d-flex align-items-center">
+									<a href="#caractere" class="navlink container">
+										<div class="row d-flex justify-content-center margeSousMenu">
+											<img src="ico/Icone_Caractere.png" alt="">
+										</div>
+										<div class="row d-flex justify-content-center">
+											<p>Caractere</p>
+										</div>
+									</a>
+								</li>
+								<li class="col nav-item bleu70 d-flex align-items-center">
+									<a href="#education" class="navlink container">
+										<div class="row d-flex justify-content-center margeSousMenu">
+											<img src="ico/Icone_Education.png" alt="">
+										</div>
+										<div class="row d-flex justify-content-center">
+											<p>Education</p>
+										</div>
+									</a>
+								</li>
+								<li class="col nav-item bleu70 d-flex align-items-center">
+									<a href="#entretien" class="navlink container">
+										<div class="row d-flex justify-content-center margeSousMenu">
+											<img src="ico/Icone_Entretien.png" alt="">
+										</div>
+										<div class="row d-flex justify-content-center">
+											<p>Entretien</p>
+										</div>
+									</a>
+								</li>
+								<li class="col nav-item bleu70 d-flex align-items-center">
+									<a href="#prix" class="navlink container">
+										<div class="row d-flex justify-content-center margeSousMenu">
+											<img src="ico/Icone_prix.png" alt="">
+										</div>
+										<div class="row d-flex justify-content-center">
+											<p>Prix</p>
+										</div>
+									</a>
+								</li>
+								<li class="col nav-item bleu70 d-flex align-items-center">
+									<a href="#alimentation" class="navlink container">
+										<div class="row d-flex justify-content-center margeSousMenu">
+											<img src="ico/Icone_Alimentation.png" alt="">
+										</div>
+										<div class="row d-flex justify-content-center">
+											<p>Alimentation</p>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>			
+			</div>
+		</div> <!--Fin de la navbar secondaire-->
+		<div class="container">
+			<div class="row">
+				<div class="col-6">
+					<img class="img-fluid" src="img/9general.jpg" alt="">
+				</div>
+				<div class="col-6">
+					<div class="row d-flex justify-content-between">
+						<div class="col-4">
+							<div class="row">
+								<div class="col">
+									<div class="row">
+										<h6 class="mina">Type de poil :</h6>
+									</div>
+									<div class="row">
+										<p>
+											Court
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<div class="row">
+										<h6 class="mina">Gabarit :</h6>
+									</div>
+									<div class="row">
+										<p>
+											Petit
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-4">
+							<div class="row">
+								<div class="col">
+									<div class="row">
+										<h6 class="mina">Origine :</h6>
+									</div>
+									<div class="row">
+										<p>
+											Japon
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<div class="row">
+										<h6 class="mina">Forme de la tête :</h6>
+									</div>
+									<div class="row">
+										<p>
+											Carré
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row justify-content-center">
+						<h3>Poids et Tailles :</h3>
+					</div>
+					<div class="row">
+						<table class="table">
+							<thead>
+								<tr>
+							    	<th scope="col" class="mina">Sexe</th>
+							    	<th scope="col" class="mina">Poid</th>
+							    	<th scope="col" class="mina">Taille</th>
+							 	</tr>
+							</thead>
+							<tbody>
+								<tr>
+							    	<th scope="row" class="mina">Female</th>
+							    	<td>De 6 kg à 10 kg</td>
+							    	<td>De 35 cm à 38 cm</td>
+								</tr>
+								<tr>
+							   		<th scope="row" class="mina">Male</th>
+							   		<td>De 6 kg à 10 kg</td>
+							    	<td>De 38 cm à 41 cm</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+		<section class="container m-b16">
+			<div class="row m-t4 m-b2">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Historique de la race Shiba</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					Le Shiba Inu est une race japonaise installée depuis des milliers d’années. Dans les années 1898-1912, des races comme les Pointers et les Setters Anglais furent importées au Japon pour la chasse. Son nom « Shiba » désigne quelque chose de petit, comme un petit chien. Il habitait jadis dans les montagnes japonaises face à la mer et était utilisé par les humains dans la chasse au gibier ainsi qu’aux oiseaux.
+				</p>
+				<p>
+					Du fait des croisements, la race pure des Shiba Inu commença à disparaître. Grâce à des passionnés, inquiets de cette extinction, un standard de race fut établit en 1934. Pour cela, ils avaient recherché des chiens non touchés par les croisements dans les contrées montagneuses reculées du Japon. En décembre 1936, le gouvernement japonais déclare le Shiba Inu « monument naturel » et « animal indigène du Japon ». À l’origine chien de chasse aux petits gibiers et aux oiseaux, il est maintenant plutôt un chien de compagnie.
+				</p>
+			</div>
+			<div class="row m-t4 m-b2">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Particularités physiques du chien</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					<span class="gras">Son poil :</span> est dur et très rêche et le sous-poil plus doux et très dense.<br>
+					<span class="gras">Sa couleur :</span> différentes robes sont acceptées comme le roux, le sésame noir ou rouge et le noir et feu. Le sésame signifie que des poils très noirs sont mélangés au reste des poils, surtout sur le dos. On trouve des Shiba Inu couleur crème et blanc ou pinto (blanc sur plus de 50 % du corps avec des taches asymétriques), mais ils ne font pas partie des standards de la race.<br>
+					<span class="gras">Sa tête :</span> arbore un crâne au front large et un museau assez épais qui diminue en largeur vers l’avant. La truffe est noire.<br>
+					<span class="gras">Ses oreilles :</span> assez petites et de forme triangulaire, elles sont bien dressées et inclinées vers l’avant.<br>
+					<span class="gras">Son corps :</span> est solide avec le dos droit. Les muscles sont bien développés, mais l’allure générale reste légère.<br>
+					<span class="gras">Sa queue :</span> est épaisse. Elle se porte dressée vers le haut et enroulée sur elle-même vers l’intérieur.
+				</p>
+			</div>				
+			<div class="row m-t4 m-b2" id="caractere">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Comportement de l'animal avec les autres</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					Le Shiba Inu est un chien craintif, mais très protecteur. Il a la réputation de ne pas être très affectueux, mais cela dépend vraiment de la manière dont il a été élevé. Il est par contre toujours très fidèle. C’est un animal très éveillé et attentif. Assez dominateur, il ne s’entend pas toujours avec les autres mâles. Néanmoins, il apprécie grandement la présence de son maître, même s’il aime aussi son indépendance et quelque moment bien à lui, de solitude. Il est très joueur, notamment avec les enfants. Il sera un très bon gardien pour eux.
+				</p>
+			</div>
+			<div class="row m-t4 m-b2" id="education">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Education du Shiba</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					Le Shiba Inu est un chien dit primitif, c’est-à-dire que sa race n’a été que très peu modifiée par l’homme et que ses instincts sont plus développés. De ce fait, son éducation n’est pas des plus simples. Il faut que le maître sache faire preuve d'autorité sans violence et soit rigoureux surtout dans les premiers mois du chiot. Comme il est peu docile naturellement, il faut faire preuve de patience pour lui apprendre les bases. Lui apprendre des tours est possible si on le récompense à chaque réussite. L’éducation doit rester positive pour renforcer la confiance du chien. L’apprentissage du rappel suit les mêmes règles de récompenses positives. Il faudra aussi, très jeune, le sociabiliser aux enfants, aux bébés et aux autres animaux.
+			</div>
+			<div class="row m-t4 m-b2">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Conditions de vie d'un Shiba</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					Ce chien peut vivre en appartement à la condition de le sortir très souvent. Plusieurs promenades par jours sont nécessaires. Une maison avec jardin lui conviendra parfaitement, mais ne dispensera pas de quelques sorties. Très actif, il pourrait sinon détruire tout ce qui se trouve sur son passage puisqu’il a besoin de se dépenser quotidiennement. C’est un chien idéalement fait pour la vie à la campagne ou dans une maison avec un jardin, dans lequel il pourra flâner, courir et s’épanouir.
+				</p>
+			</div>
+			<div class="row m-t4 m-b2">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Santé de votre compagnon</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					Le Shiba Inu ne pose pas de problèmes de santé particuliers. C’est une race rustique qui ne tombe malade que rarement et qui n’est pas touchée par de graves maladies génétiques. C’est même un chien qui vieillit bien. S’il est suivi convenablement par le vétérinaire pour les vaccins, vermifuges et soins habituels, le Shiba Inu vivra assez vieux. Il s’agit de faire attention aux coups de froid ou de chaud et aux tiques. Le Shiba mâle a cependant plus de soucis que la femelle puisque sa région buccale peut être infectée. Quelques soucis digestifs sont à noter tout comme des petites allergies.<br>
+					L'espérance de vie d'un Shiba-Inu se situe, en moyenne, entre 12 ans et 15 ans.
+				</p>
+			</div>
+			<div class="row m-t4 m-b2" id="entretien">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Entretien et hygiène de votre chien</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					Le Shiba Inu perd ses poils de couverture un peu toute l’année. Toutefois, il est sujet à 2 périodes de mues principales : au printemps et en automne. À cette période, le sous-poil tombe par paquets, c’est impressionnant. Il faut même prévoir un bon aspirateur. Par contre, son poil est autonettoyant. S’il se salit, il suffit de le laisser sécher à l’abri et la poussière tombera d’elle-même au sol. Sa robe demande cependant un brossage régulier pour lui permettre de garder sa brillance et sa beauté.
+				</p>
+				<p>
+					Le Shiba Inu n’a pas besoin de bains fréquents. Un ou deux par an suffisent, car il est propre et son poil n’est pas malodorant. Il faut le brosser avec une carde quotidiennement en période de mue. On peut le brosser à rebrousse-poil pour donner plus de volume à sa fourrure. Il conviendra de bien vérifier l’état de ses dents, de sa bouche afin d’éviter tout développement d’infections dont il est sujet.
+				</p>
+			</div>
+			<div class="row m-t4 m-b2" id="prix">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Prix et budget du chien</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					Le prix d'achat d'un Shiba-Inu se situe entre 1000€ et 1500€.<br>
+					Le coût d'entretien annuel d'un Shiba-Inu se situe entre 900€ et 1000€.
+				</p>
+			</div>
+			<div class="row m-t4 m-b2" id="alimentation">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Alimentation du Shiba</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					Le régime alimentaire du Shiba doit se faire à base de nourriture dite traditionnelle, c’est-à-dire à base de croquette de haute gamme. Ces dernières ne sont trouvables qu’en animalerie ou en magasin spécialisé. Il est important de bien vérifier que la ration journalière soit en lien avec la dépense énergétique de ce chien qui pourrait souffrir d’embonpoint s’il était suralimenté.
+				</p>
+			</div>
+			<div class="row m-t4 m-b2">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Activité physique du Shiba</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					Ce chien a besoin de nombreuses sorties. Il lui faut donc un maître assez sportif et qui aime passer du temps dehors. Il est possible de faire du sport avec lui.
+				</p>
+			</div>
+		</section>
+		<footer class="fondNoir">
+			<div class="container">
+				<div class="row  justify-content-around relative">
+					<!--ajouter le Shiba ici-->
+					<div class="absolute shibaDroite"><!--Shiba-->
+						<a href="#haut"><img class="img-fluid" data-toggle="tooltip" data-placement="left" title="Je vous accompagne jusqu'en haut ?" src="img/0shiba.png" alt=""></a>
+					</div>
+					<div class="col-6 center">
+						<p><a href="plan.html">Plan du site</a></p>
+						<p><a href="mentionsLegals.html">Mentions légales</a></p>
+						<hr class="fondBlanc">
+						<p><a href="contact.html#contact">38 rue des sapin 88210 Saint Stail</a></p> <!--lien redirigent vers un carte google maps? ou vers la page contact-->
+						<p>
+							<img src="ico/0marquednegatif28x28.png" alt="">
+							<a href="#">Les meutes des Forets Vosgiennes</a>
+						</p>
+					</div>
+					<div class="col-4 icone d-flex align-items-center justify-content-around">
+						<a href="#"><img src="ico/Facebook.png" alt=""></a>
+						<a href="#"><img src="ico/Instagrame.png" alt=""></a>
+						<a href="#"><img src="ico/Twitter.png" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,669 @@
+/*PAGE 1 et GLOBAL (menu, titre, footer, ...*/
+/*Ajout des police*/
+@font-face {
+	font-family: "Open-sans";
+	src: url("../font/OpenSans-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Mina";
+	src: url("../font/Mina-Regular.ttf");
+}
+
+/*variable des couleur*/
+:root
+{
+	--noir:#101322;
+	--noir50:rgba(16,19,34,0.5);
+	--blanc:#EBEFF2;
+	--blanc70:rgba(235,239,242,0.7);
+	--bleu:#A8D5D7;
+	--bleu70:rgba(168,213,215,0.7);
+	--ocre:#D9B88F;
+}
+/*TEST*/
+
+/*FIN DES TESTE*/
+
+.noir
+{
+	color: var(--noir);
+}
+
+.noir50
+{
+	background-color: var(--noir50);
+}
+
+.fondNoir
+{
+	background-color: var(--noir);
+}
+
+.blanc
+{
+	color: var(--blanc);
+}
+
+.fondBlanc
+{
+	background-color: var(--blanc);
+}
+
+.fondBlanc70
+{
+	background-color: var(--blanc70);
+}
+
+.bleu
+{
+	background-color: var(--bleu);
+}
+
+.bleu70
+{
+	background-color: var(--bleu70);
+}
+
+.ocre
+{
+	background-color: var(--ocre);
+}
+
+.mina
+{
+	font-family: "Mina", "serif";
+}
+
+.index5
+{
+	z-index: 5;
+}
+
+.wenOrder1
+{
+	order: 1;
+}
+
+.webOrder2
+{
+	order: 2;
+}
+
+.webOrder3
+{
+	order: 3;
+}
+
+.m-b16 /*special grande marge pour la galerie-footer */
+{
+	margin-bottom: 16rem;
+}
+
+.m-b8
+{
+	margin-bottom: 8rem;
+}
+
+.m-b4
+{
+	margin-bottom: 4rem;
+}
+
+.m-b2
+{
+	margin-bottom: 2rem;
+}
+
+.m-b1
+{
+	margin-bottom: 1rem;
+}
+
+.m-t8
+{
+	margin-top: 8rem;
+}
+
+.m-t4
+{
+	margin-top: 4rem;
+}
+
+.m-t2
+{
+	margin-top: 2rem;
+}
+
+.p-t1
+{
+	padding-top: 1rem;
+}
+
+.sousligne
+{
+	text-decoration: underline;
+}
+
+.gras
+{
+	font-weight: bold;
+}
+/*par defaut : texte noir et en Open Sans, fond en blanc*/
+
+body
+{
+	color: var(--noir);
+	font-family: "Open-sans", "sans-serif";
+	background-color: var(--blanc);
+}
+
+/*TITRE*/
+h2
+{
+	font-size: 2.5rem;
+}
+
+h3
+{
+	text-decoration: underline;
+}
+
+h4
+{
+
+}
+
+h5
+{
+	font-size: 1.7rem;
+}
+
+h6
+{
+	font-size: 1.1rem;
+}
+
+
+/*MENU*/
+
+		/*ombre sous l'image*/
+.ombre
+{
+-webkit-box-shadow: 0px 20px 30px 5px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 20px 30px 5px rgba(0,0,0,0.5);
+box-shadow: 0px 20px 30px 5px rgba(0,0,0,0.5);
+}
+		/*sur la photo*/
+
+.relative
+{
+	position: relative;
+}
+
+.absolute
+{
+	position: absolute;
+}
+
+.menu
+{
+	top:0px;
+	width: 100%;
+}
+		/*centrer le menu*/
+
+.containerAccueil
+{
+	max-width: 1920px;
+	padding-right: 0px;
+    padding-left: 0px;
+}
+.rectificationMenu
+{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.rectificationRow
+{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+		/*sur toute la page*/
+
+.navbar-nav
+{
+	margin-right: 0px !important; /*rectification d'une margin-right sur la navbar (en !important dans boostrap)*/
+}
+		/*boutons du menu*/
+.nav-item
+{
+	mix-blend-mode: multiply;
+	opacity: 1;
+	border:solid 2px var(--blanc);
+	border-radius: 0px;
+}
+.nav-item a
+{
+	color: var(--noir);
+	font-size: 1.5rem;
+}
+
+		/*bouton "burger"*/
+
+.navbar-toggler-icon
+{
+	background-image: url("../ico/btnBurger.png");
+	width: 2em;
+}
+		/*LOGO*/
+
+.logo
+{
+	width: auto;
+	height: 100%;
+	/*max-height: ;*/
+}
+
+		/*enlever les marge pour que le logo prenne toute la hauteur du menu*/
+
+.navbar-brand
+{
+	padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+.navbar
+{
+	padding: 0rem;
+}
+
+		/*rajouter des marge pour que le menu ne soit pas collé au bord*/
+
+.menucentrer
+{
+	padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+/*PHRASE D'ACCROCHE*/
+.accroche
+{
+	font-size: 1.8rem;
+	text-align: center;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+
+/*BOUTON GENERAL*/
+
+		/*bouton gris*/
+.btnGris
+{
+	background-color: var(--noir50);
+}
+
+		/*bouton ocre*/
+.btnOcre
+{
+	background-color: var(--ocre);
+	box-shadow: 5px 5px 6px var(--noir);
+}
+
+		/*bouton Rencontrez nous*/
+
+.posRencontre
+{
+	top:-300px;
+	left:15%;
+}
+
+.btnRencontre
+{
+	font-size: 2.5rem;
+}
+
+.btnRencontreTaille
+{
+	border-radius: 50px;
+	width: 30rem;
+	height: 6rem;
+}
+
+/*SECTION 1*/
+		/*titre espacer par rapport à la photo*/
+
+.titre
+{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+		/*espace entre le texte de la photo de gauche*/
+
+.float-left
+{
+	padding-right: 10px;
+}
+
+		/*partie EN VEDETTE*/
+
+aside div
+{
+	padding: 5% 5% 5% 5%;
+	border-radius: 20px;
+}
+
+.paddingBottom
+{
+	margin-bottom: 5px;
+}
+/*SPARATEUR PATTE*/
+
+.patte
+{
+
+}
+
+/*SECTION 2 AVEC LA VIDEO*/
+
+		/*iframe responsice*/
+
+.iframe
+{
+	padding-top: 56.25%;
+}
+
+.iframe iframe
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+		/*placemement du texte*/
+
+.textVideo p
+{
+	margin-top: 50%;
+}
+
+		/*bouton decouvrer nos choit*/
+			/*est reposive mais le texte ne l'est pas OU est pas responsive et se met dans l'image si on reduit la page GRRR*/
+
+.btnChiotTaillle
+{
+	border-radius: 20px;
+}
+
+/*FOOTER*/
+
+		/*placement du shiba*/
+
+.shibaAccueil
+{
+	top:-538px;
+	right: -150px;
+}
+
+.shibaGauche
+{
+	top: -294px;
+	left: -150px;
+}
+
+.shibaDroite
+{
+	top: -294px; /*294px -> hauteur de l'image + 50px la marge*/
+	right: -175px;
+}
+
+.shibaMillieux
+{
+	top:-294px;
+	right: 500px;
+}
+
+		/*marge*/
+
+footer
+{
+	margin-top: 100px;
+	padding-top: 50px;
+}
+
+		/*colonne et texte*/
+
+.center p
+{
+	text-align: center;
+}
+
+		/*centrer les icone*/
+
+.icone
+{
+	padding-bottom: 50px;
+}
+
+
+
+/*PAGE2 LES RACES*/
+
+		/*espace sous le bouton*/
+
+.btnInfo
+{
+	margin-bottom: 20px;
+}
+
+.patte
+{
+	left: 0px;
+	bottom: 0px;
+}
+
+.btnSavoirPlus
+{
+	border-radius: 20px;
+	width: 12rem;
+	bottom: 7%;
+	left: 35%;
+}
+
+/*PAGE 3 LA GALERIE*/
+	/*bouton découvrer nos chiots*/
+
+.btnDecouvrirChiots
+{
+	font-size: 2.5rem;
+}
+
+.btnDecouvrirChiotsTaille
+{
+	border-radius: 50px;
+	width: 57rem;
+	height: 6rem;
+}
+
+.posDecouvrirChiots
+{
+	top:-300px;
+	left:6%;
+}
+	
+	/*carousel fleche*/
+
+.carousel-control-next-icon
+{
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23A8D5D7' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e");
+}
+
+.carousel-control-prev-icon
+{
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23A8D5D7' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5L4.25 4l2.5-2.5L5.25 0z'/%3e%3c/svg%3e");
+}
+
+	/*rectification col-4 pour avoir 3 image en même temps dans le carousel*/
+
+.carouselImage
+{
+	max-width: 33%;
+	padding: 0px;
+	margin: 0px;
+}
+
+	/*hauteur de carousel*/
+
+.carouselTaille
+{
+	height: 550px;
+}
+
+/*PAGE 4 LES CHIOTS */
+
+	/*bouton reservation*/
+
+.posBtnReservation
+{
+	margin-bottom: 25px;
+	margin-top: 9px;
+	border-radius: 20px;
+}
+
+	/*photo chiots*/
+
+.photoTailleMax
+{
+	width: 99.99%;
+	height: auto;
+}
+
+	/*mise en page special portée (les 3 chiots)*/
+
+.mino
+{
+	margin-bottom: 40%;
+}
+
+	/*mise en page du nom des chiots*/
+
+.nomChiots
+{
+	font-size: 1.4rem;
+}
+
+	/*bouton contact si on n'a pas de chiots d'une ace*/
+
+.btnNonChiots
+{
+	border-radius: 25px;
+	font-size: 1.5rem;
+	width: 23rem;
+	height: 3rem;
+}
+
+/*PAGE 5 NOS SERVICES */
+
+.btnContactService
+{
+	border-radius: 20px;
+	font-size: 1.2rem;
+	width: 20rem;
+	height: 3rem;
+}
+
+
+.btnEnConstruction
+{
+	border-radius: 20px;
+	font-size: 1.2rem;
+	width: 23rem;
+	height: 3rem;
+}
+.posIcon
+{
+	bottom: 0px;
+	right: 0px;
+}
+
+/*PAGE 6 INFOS / CONTACT*/
+
+iframe
+{
+	width: 100%;
+}
+
+.backgroundForm
+{
+	background-image: url(../img/6journal.jpg);
+	background-size: 100% auto;
+}
+
+	/*FORMULAIRE DE CONTACT*/
+
+input::placeholder, select, textarea::placeholder
+{
+	color: var(--noir)
+}
+
+.formulaire
+{
+	border-radius: 20px;
+	height: 3rem;
+	width: 100%;
+	font-size: 1.5rem;
+}
+
+.formulaireTextarea
+{
+	border-radius: 20px;
+	width: 100%;
+	font-size: 1.5rem;
+}
+
+/*PAGE 7 DETAILS CHIENS PRIMITIF*/
+
+	/*rectification des marge sur une colonne*/
+
+.rectifmarge
+{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+/*PAGE 8 DETAILS HUSKY*/
+
+.margeSousMenu
+{
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.margeSousMenuEntier
+{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+/*PAGE 12 MENTIONS LEGALES*/
+.taileTitreMentions
+{
+	font-size: 1.25rem;
+}
+.tailleSousTitre
+{
+	font-size: 1.1Rem;
+}
+
+/*PAGE 13 PLAN DU SITE*/
+.tailleTitrePlan
+{
+    font-size: 1.75rem;
+}

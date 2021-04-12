@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="FR">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Nos chiots</title>
+		<link rel="icon" type="image/png" sizes="16x16" href=" img/0logoOnglet.png">
+		<!--fichier css-->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/responsiveTab.css">
+		<link rel="stylesheet" type="text/css" href="css/mainResp.css">
+		<!--fichier less-->
+		<script src="js/less.js" type="text/javascript"></script>
+		<link rel="stylesheet/less" type="text/css" href="css/galerie.less">
+		<!--fichier js et intergration J.quary-->
+		<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+		<script src="js/bootstrap.bundle.js"></script>
+		<script src="js/galerie.js"></script>
+	</head>
+	<body>
+		<header class="relative mina" id="haut"><!-- image sur toute la largeur-->
+			<figure class="text-center mobilebackground mobileCollapse">	
+				<img class="img-fluid ombre" src="img/4accueil.jpg" alt="">
+			</figure>
+			<figure class="text-center mobilebackground webCollapse tabletteCollapse">	
+				<img class="img-fluid ombre" src="img/mobile414/4accueil.png" alt="">
+			</figure>
+			<div class="absolute menu">
+				<div class="bleu70">
+					<div class="container containerAccueil"> <!--icone + menu de navigation-->
+						<div class="row rectificationRow">
+							<a class="col-2 justify-content-center rectificationMenu mobileCollapse" href="index.html"><img class="logo" src="img/0logo.png" alt=""/></a>
+							<div class="col-10 rectificationMenu">
+								<div class="container menucentrer d-flex justify-content-center flex-column">
+									<h1 class="text-center">Les meutes des Forets Vosgiennes</h1><br>
+									<nav class="navbar navbar-expand-lg">
+										<span class="navbar-brand"></span> <!--laisse le bouton a gauche si pas de navbar-brand-->
+										<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+										  	<span class="navbar-toggler-icon"></span>
+										</button>
+										<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+											<ul class="navbar-nav text-center">
+												<li class="nav-item bleu70 d-flex align-items-center justify-content-center"><a class="nav-link w-100" href="index.html">Accueil</a></li>
+												<li class="nav-item bleu70 d-flex align-items-center justify-content-center"><a class="nav-link w-100" href="races.html">Quelles races ?</a></li>
+												<li class="nav-item bleu70 d-flex align-items-center justify-content-center"><a class="nav-link w-100" href="galerie.html">Galerie</a></li>
+												<li class="nav-item bleu70 d-flex align-items-center justify-content-center"><a class="nav-link w-100" href="chiots.html">Nos Chiots</a></li>
+												<li class="nav-item bleu70 d-flex align-items-center justify-content-center"><a class="nav-link w-100" href="services.html">Nos services</a></li>
+												<li class="nav-item bleu70 d-flex align-items-center justify-content-center"><a class="nav-link w-100" href="contact.html">Infos / Contact</a></li>
+											</ul>		<!--d-flex et align-item pour centrer les element dans les bouton lors de la redution de la page-->
+										</div>
+									</nav>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section class="container m-b4">
+			<div class="row justify-content-center">
+				<h2 class="titre mina">Nos Petits nouveaux</h2>
+			</div>
+			<div class="row colonne">
+				<div class="col-4 colonne12">
+					<img class="img-fluid" src="img/4husky.jpg" alt="">
+				</div>
+				<div class="col-8 colonne12">
+					<p>
+						Vous voici au bon endroit pour réserver votre chiot.
+						Les nouvelles portée sont listées ici par race. Une fois votre choix effectué, vous pourrez nous appeler au 03 84 67 58 42 pour la réservation ou pour toute question que vous pourriez avoir.
+					</p>
+					<div class="d-flex justify-content-center">
+						<a href="contact.html" class="btn posBtnReservation btnOcre">Réservation au<br class="webCollapse"> 03 84 67 58 42</a>
+					</div>
+					<p>
+						 Il est possible que certains chiots n'apparaissent pas sur cette page: s'ils sont trop jeunes (l'adoption se fait à 	partir de 3 mois), ou s'ils ont déjà été réservés.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<div class="bleu70"> <!--la navbar-->
+			<div class="container m-b4">
+				<div class="row margeSousMenuEntier">
+					<div class="navbat navbar-expand-lg w-100 d-flex align-items-center justify-content-between">
+						<span class="navbar-brand webCollapse">Races :</span> <!--laisse le bouton a gauche si pas de navbar-brand-->
+						<button class="navbar-toggler align-self-start webOrder3" type="button" data-toggle="collapse" data-target="#navbar2" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						  	<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse w-100 webOrder2" id="navbar2">
+							<ul class="navbar-nav text-center w-100 justify-content-between">
+								<li class="col nav-item bleu70 d-flex align-items-center">
+									<a href="#husky" class="navlink container">Nos Husky</a>
+								</li>
+								<li class="col nav-item bleu70 d-flex align-items-center">
+									<a href="#Shiba-inu" class="navlink container">Nos Shiba Inu</a>
+								</li>
+								<li class="col nav-item bleu70 d-flex align-items-center">
+									<a href="#Chow-Chow" class="navlink container">Nos Chow-Chow</a>
+								</li>
+								<li class="col nav-item bleu70 d-flex align-items-center">
+									<a href="#Eurasier" class="navlink container">Nos Eurasier</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>			
+			</div>
+		</div> <!--Fin de la navbar secondaire-->
+
+		<div class="container m-b4">
+			<article id="husky"> <!--un article par race de chien-->
+				<div class="row m-b2"> <!--1ere row le nom de la race-->
+					<h3>Nos Husky :</h3>
+				</div>
+				<div class="row m-b2"> <!--la 2eme row avec les parents-->
+					<div class="col-7">
+						<img class="img-fluid photoTailleMax" src="img/4huskyParents1.jpg" alt="">
+					</div>
+					<div class="col-5 d-flex align-items-center justify-content-center">
+						<p>
+							Portée d'Helios et de Mina.<br>
+							Mina à droite (la plus claire) et<br>
+							Hélios à gauche (plus sombre).<br>
+						</p>
+					</div>
+				</div>
+				<div class="row m-b2"><!--la derniere row pour les chiots-->
+					<div class="col-5 d-flex align-items-center justify-content-center">
+						<div class="col">
+							<p class="mino">
+								<span class="nomChiots mina">Mino</span> (A gauche)<br>
+								Mâle
+							</p>
+							<p>
+								<span class="nomChiots mina">Reimo</span> (A droite)<br>
+								Mâle
+							</p>
+						</div>
+						<div class="col">
+							<p>
+								<span class="nomChiots mina">Helia</span> (Au millieux)<br>
+								Female
+							</p>
+						</div>
+					</div>
+					<div class="col-7">
+						<img class="img-fluid photoTailleMax" src="img/4HuskyPortée.jpg" alt="">
+					</div>
+				</div>
+				<div class="row d-flex justify-content-center  m-b2"> <!--separateur patte-->
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="row m-b2"> <!--row avec les parents-->
+					<div class="col-7">
+						<img class="img-fluid photoTailleMax" src="img/4huskyParents2.jpg" alt="">
+					</div>
+					<div class="col-5 d-flex align-items-center justify-content-center">
+						<p>
+							Portée d'Orion et de Jessie.<br>
+							Jessie devant (la plus claire) et<br>
+							Orion derrière (plus sombre).<br>
+						</p>
+					</div>
+				</div>
+				<div class="row m-b2"><!--row pour les chiots-->
+					<div class="col-5 d-flex align-items-center justify-content-center">
+						<p>
+							<span class="nomChiots mina">Loki</span><br>
+							Mâle
+						</p>
+					</div>
+					<div class="col-7">
+						<img class="img-fluid photoTailleMax" src="img/4HuskyLoki.jpg" alt="">
+					</div>
+				</div>
+				<div class="row d-flex justify-content-center m-b2"> <!--separateur patte-->
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</article>
+			<article id="Shiba-inu"> <!--un article par race de chien-->
+				<div class="row m-b2"> <!--1ere row le nom de la race-->
+					<h3>Nos Shiba Inu :</h3>
+				</div>
+				<div class="row m-b2"> <!--la 2eme row avec les parents-->
+					<div class="col-7">
+						<img class="img-fluid photoTailleMax" src="img/4ShibaParent.jpg" alt="">
+					</div>
+					<div class="col-5 d-flex align-items-center justify-content-center">
+						<p>
+							Portée de Kitsune et de Aiko.<br>
+							Aiko à gauche (*bonne nuit*) et<br>
+							Kitsune à droite (*surveille*).<br>
+						</p>
+					</div>
+				</div>
+				<div class="row m-b2"><!--la derniere row pour les chiots-->
+					<div class="col-6">
+						<div class="m-b8 m-t8 d-flex justify-content-center">
+							<p>
+								<span class="nomChiots mina">Akira</span> (A droite)<br>
+								Mâle
+							</p>
+						</div>
+						<div>
+							<img class="img-fluid photoTailleMax" src="img/4ChibaMaiko.jpg" alt="">
+						</div>
+					</div>
+					<div class="col-6">
+						<div>
+							<img class="img-fluid photoTailleMax" src="img/4ChibaAkira.jpg" alt="">
+						</div>
+						<div class="m-b8 m-t8 d-flex justify-content-center">
+							<p>
+								<span class="nomChiots mina">Maiko</span> (A gauche)<br>
+								Female
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="row d-flex justify-content-center  m-b2"> <!--separateur patte-->
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</article>
+			<article id="Chow-Chow"> <!--un article par race de chien-->
+				<div class="row m-b2"> <!--1ere row le nom de la race-->
+					<h3>Nos Chow-Chow :</h3>
+				</div>
+				<div class="row colonne">
+					<div class="col-6 colonne12 mobile-m-b1">
+						<p>
+							Nous somme désolé mais nous n'avons pas portée de Chow-Chow actuellement
+						</p>
+						<p>
+							Vous pouvez nous contacter si vous souhaitez réserver un chiot d'une future portée et nous vous tiendrons au courant des grossesses et des naissances éventuelles. 
+						</p>
+					</div>
+					<div class="col-6 colonne12 mobile-m-b2">
+						<div class="d-flex justify-content-center m-b2">
+							<a href="#" class="btn btnNonChiots btnOcre"><span class="mobileCollapse tabletteCollapse">Téléphone : </span>03 84 67 58 42</a>
+						</div>
+						<div class="d-flex justify-content-center">
+							<a href="contact.html#formulaire" class="btn btnNonChiots btnOcre"><span class="mobileCollapse tabletteCollapse">Formulaire de </span>Contact</a>
+						</div>
+					</div>
+				</div>
+				<div class="row d-flex justify-content-center  m-b2"> <!--separateur patte-->
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</article>
+			<article id="Eurasier"> <!--un article par race de chien-->
+				<div class="row m-b2"> <!--1ere row le nom de la race-->
+					<h3>Nos Eurasier :</h3>
+				</div>
+				<div class="row m-b2"> <!--la 2eme row avec les parents-->
+					<div class="col-7">
+						<img class="img-fluid photoTailleMax" src="img/4ShibaParent.jpg" alt="">
+					</div>
+					<div class="col-5 d-flex align-items-center justify-content-center">
+						<p>
+							Portée de Aramis et de Laska.<br>
+							Laska à gauche (la plus claire) et<br>
+							Aramis à droite (plus sombre).<br>
+						</p>
+					</div>
+				</div>
+				<div class="row m-b2"><!--la derniere row pour les chiots-->
+					<div class="col-6">
+						<div class="m-b8 m-t8 d-flex justify-content-center">
+							<p>
+								<span class="nomChiots mina">Gaia</span> (A droite)<br>
+								Female
+							</p>
+						</div>
+						<div>
+							<img class="img-fluid photoTailleMax" src="img/4EurasierHanko.jpg" alt="">
+						</div>
+					</div>
+					<div class="col-6">
+						<div>
+							<img class="img-fluid photoTailleMax" src="img/4EurasierGaia.jpg" alt="">
+						</div>
+						<div class="m-b8 m-t8 d-flex justify-content-center">
+							<p>
+								<span class="nomChiots mina">Hanko</span> (A gauche)<br>
+								Mâle
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="row d-flex justify-content-center  m-b2"> <!--separateur patte-->
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="row m-b2"> <!--row avec les parents-->
+					<div class="col-7">
+						<img class="img-fluid photoTailleMax" src="img/4EurasierParents2.jpg" alt="">
+					</div>
+					<div class="col-5 d-flex align-items-center justify-content-center">
+						<p>
+							Le petit dernier de la portée de Hermès et de Bianca.<br>
+							Bianca à droite (la plus claire) et<br>
+							Hermès à gauche (plus sombre).<br>
+						</p>
+					</div>
+				</div>
+				<div class="row m-b2"><!--row pour les chiots-->
+					<div class="col-5 d-flex align-items-center justify-content-center">
+						<p>
+							<span class="nomChiots mina">Oshi</span><br>
+							Mâle
+						</p>
+					</div>
+					<div class="col-7">
+						<img class="img-fluid photoTailleMax" src="img/4EurasierOshi.jpg" alt="">
+					</div>
+				</div>
+			</article>
+		</div>
+		<footer class="fondNoir">
+			<div class="container">
+				<div class="row  justify-content-around relative">
+					<!--ajouter le Shiba ici-->
+					<div class="absolute shibaGauche mobileCollapse"><!--Shiba-->
+						<a href="#haut"><img class="img-fluid" data-toggle="tooltip" data-placement="left" title="Je vous accompagne jusqu'en haut ?" src="img/0shiba.png" alt=""></a>
+					</div>
+					<div class="absolute mobileShibaGauche webCollapse"><!--Shiba mobile-->
+						<a href="#haut"><img class="img-fluid" data-toggle="tooltip" data-placement="left" title="Je vous accompagne jusqu'en haut ?" src="img/mobile414/0shiba.png" alt=""></a>
+					</div>
+					<div class="col-6 center">
+						<p><a href="plan.html">Plan du site</a></p>
+						<p><a href="mentionsLegals.html">Mentions légales</a></p>
+						<hr class="fondBlanc">
+						<p><a href="contact.html#contact">38 rue des sapin 88210 Saint Stail</a></p> <!--lien redirigent vers un carte google maps? ou vers la page contact-->
+						<p>
+							<img src="ico/0marquednegatif28x28.png" alt="">
+							<a href="#">Les meutes des Forets Vosgiennes</a>
+						</p>
+					</div>
+					<div class="col-4 icone d-flex align-items-center justify-content-around colonne">
+						<a href="#"><img src="ico/Facebook.png" alt=""></a>
+						<a href="#"><img src="ico/Instagrame.png" alt=""></a>
+						<a href="#"><img src="ico/Twitter.png" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

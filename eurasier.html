@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="FR">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>L'Eurasier</title>
+		<link rel="icon" type="image/png" sizes="16x16" href=" img/0logoOnglet.png">
+		<!--fichier css-->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/mainResp.css">
+		<!--fichier js et intergration J.quary-->
+		<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+		<script src="js/bootstrap.bundle.js"></script>
+	</head>
+	<body>
+		<header class="relative mina" id="haut"><!-- image sur toute la largeur-->
+			<figure class="text-center mobilebackground">	
+				<img class="img-fluid ombre mobileCollapse" src="img/11accueil.jpg" alt="">
+			</figure>
+			<div class="absolute menu">
+				<div class="bleu70">
+					<div class="container containerAccueil"> <!--icone + menu de navigation-->
+						<div class="row rectificationRow">
+							<a class="col-1 justify-content-center rectificationMenu" href="index.html"><img class="logo" src="img/0logo.png" alt=""/></a>
+							<div class="col-10 rectificationMenu">
+								<div class="container menucentrer">
+									<h1 class="text-center">Les meutes des Forets Vosgiennes</h1>
+									<nav class="navbar navbar-expand-lg">
+										<span class="navbar-brand"></span> <!--laisse le bouton a gauche si pas de navbar-brand-->
+										<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+										  	<span class="navbar-toggler-icon"></span>
+										</button>
+										<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+											<ul class="navbar-nav text-center">
+												<li class="nav-item bleu70 d-flex align-items-center"><a class="nav-link" href="index.html">Accueil</a></li>
+												<li class="nav-item bleu70 d-flex align-items-center"><a class="nav-link" href="races.html">Quelles races ?</a></li>
+												<li class="nav-item bleu70 d-flex align-items-center"><a class="nav-link" href="galerie.html">Galerie</a></li>
+												<li class="nav-item bleu70 d-flex align-items-center"><a class="nav-link" href="chiots.html">Nos Chiots</a></li>
+												<li class="nav-item bleu70 d-flex align-items-center"><a class="nav-link" href="services.html">Nos services</a></li>
+												<li class="nav-item bleu70 d-flex align-items-center"><a class="nav-link" href="contact.html">Infos / Contact</a></li>
+											</ul>		<!--d-flex et align-item pour centrer les element dans les bouton lors de la redution de la page-->
+										</div>
+									</nav>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section class="container m-b2">
+			<div class="row justify-content-center">
+				<h2 class="titre mina">L'Eurasier</h2>
+			</div>
+			<div class="row">
+				<p>
+					L’Eurasier est un chien encore assez méconnu en France. Pourtant, ses qualités de chien de compagnie sont indéniables. Son éducation est des plus simples et apportera à son propriétaire ainsi qu’à sa famille adoptive une douceur extraordinaire. Il est sensible, intelligent et très sociable. Il apprécie le contact avec son maître. Il ne peut d’ailleurs pas s’en passer car n’aime pas la solitude. Sa santé est robuste et son alimentation simplissime.
+				</p>
+			</div>
+		</section>
+		<div class="bleu70"> <!--la navbar-->
+			<div class="container m-b4">
+				<div class="row margeSousMenuEntier">
+					<div class="navbat navbar-expand-lg w-100 d-flex align-items-center">
+						<span class="navbar-brand"></span> <!--laisse le bouton a gauche si pas de navbar-brand-->
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						  	<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse w-100" id="navbar2">
+							<ul class="navbar-nav text-center w-100 justify-content-between">
+								<li class="col nav-item bleu70 d-flex align-items-center">
+									<a href="#caractere" class="navlink container">
+										<div class="row d-flex justify-content-center margeSousMenu">
+											<img src="ico/Icone_Caractere.png" alt="">
+										</div>
+										<div class="row d-flex justify-content-center">
+											<p>Caractere</p>
+										</div>
+									</a>
+								</li>
+								<li class="col nav-item bleu70 d-flex align-items-center">
+									<a href="#education" class="navlink container">
+										<div class="row d-flex justify-content-center margeSousMenu">
+											<img src="ico/Icone_Education.png" alt="">
+										</div>
+										<div class="row d-flex justify-content-center">
+											<p>Education</p>
+										</div>
+									</a>
+								</li>
+								<li class="col nav-item bleu70 d-flex align-items-center">
+									<a href="#entretien" class="navlink container">
+										<div class="row d-flex justify-content-center margeSousMenu">
+											<img src="ico/Icone_Entretien.png" alt="">
+										</div>
+										<div class="row d-flex justify-content-center">
+											<p>Entretien</p>
+										</div>
+									</a>
+								</li>
+								<li class="col nav-item bleu70 d-flex align-items-center">
+									<a href="#prix" class="navlink container">
+										<div class="row d-flex justify-content-center margeSousMenu">
+											<img src="ico/Icone_prix.png" alt="">
+										</div>
+										<div class="row d-flex justify-content-center">
+											<p>Prix</p>
+										</div>
+									</a>
+								</li>
+								<li class="col nav-item bleu70 d-flex align-items-center">
+									<a href="#alimentation" class="navlink container">
+										<div class="row d-flex justify-content-center margeSousMenu">
+											<img src="ico/Icone_Alimentation.png" alt="">
+										</div>
+										<div class="row d-flex justify-content-center">
+											<p>Alimentation</p>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>			
+			</div>
+		</div> <!--Fin de la navbar secondaire-->
+		<div class="container">
+			<div class="row">
+				<div class="col-6">
+					<img class="img-fluid" src="img/11general.jpg" alt="">
+				</div>
+				<div class="col-6">
+					<div class="row d-flex justify-content-between">
+						<div class="col-4">
+							<div class="row">
+								<div class="col">
+									<div class="row">
+										<h6 class="mina">Type de poil :</h6>
+									</div>
+									<div class="row">
+										<p>
+											Long
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<div class="row">
+										<h6 class="mina">Gabarit :</h6>
+									</div>
+									<div class="row">
+										<p>
+											Moyen
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-4">
+							<div class="row">
+								<div class="col">
+									<div class="row">
+										<h6 class="mina">Origine :</h6>
+									</div>
+									<div class="row">
+										<p>
+											Allemagne
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<div class="row">
+										<h6 class="mina">Forme de la tête :</h6>
+									</div>
+									<div class="row">
+										<p>
+											Triangulaire
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row justify-content-center">
+						<h3>Poids et Tailles :</h3>
+					</div>
+					<div class="row">
+						<table class="table">
+							<thead>
+								<tr>
+							    	<th scope="col" class="mina">Sexe</th>
+							    	<th scope="col" class="mina">Poid</th>
+							    	<th scope="col" class="mina">Taille</th>
+							 	</tr>
+							</thead>
+							<tbody>
+								<tr>
+							    	<th scope="row" class="mina">Female</th>
+							    	<td>De 18 kg à 26 kg</td>
+							    	<td>De 48 cm à 56 cm</td>
+								</tr>
+								<tr>
+							   		<th scope="row" class="mina">Male</th>
+							   		<td>De 25 kg à 32 kg</td>
+							    	<td>De 52 cm à 60 cm</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+		<section class="container m-b16">
+			<div class="row m-t4 m-b2">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Historique de la race Eurasier</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					La race de l’Eurasier est assez récente puisqu’elle remonte aux années 1960. Son créateur, Julius Wipfel, eut l’idée de croiser un Chow-Chow avec un Spitz loup. Le résultat, un Wolf-Chow, fut lui-même croisé avec des Samojédes. Cela a donné l’Eurasier. Julius Wipfel fut aidé dans son entreprise par Konrad Lorenz, un ethnologue qui a d’ailleurs reçu le prix Nobel de Médecine.
+				</p>
+				<p>
+					L’Eurasier est reconnu par la Fédération Cynologique Internationale le 27 juillet 1973. Puis, la race parcours l’Europe. Elle se répand en Allemagne, en Hollande ainsi qu’en Belgique. Elle reste encore trop peu présente en France.
+				</p>
+			</div>
+			<div class="row m-t4 m-b2">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Particularités physiques du chien</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					<span class="gras">Son corps :</span> il est de taille moyenne et affiche des proportions harmonieuses. Le tronc est solide. Le garrot est marqué. La croupe, elle, est droite et large. La poitrine descend jusqu’au niveau des coudes.<br>
+					<span class="gras">Son poil :</span> Il présente un poil de couverture mi-long. Le sous-poil est assez dense. Le poil est plus court au niveau de la tête, sur le museau et les oreilles. En revanche, la queue et les membres postérieurs présentent un poil légèrement plus long avec des franges.<br>
+					<span class="gras">Sa couleur :</span> le standard de l’Eurasier n’est pas très difficile. En effet, toutes les couleurs sont admises. Sont simplement exclues les robes blanches (unicolores), panachées de blanc et marron.<br>
+					<span class="gras">Sa tête :</span> elle est harmonieuse avec des axes longitudinaux du chanfrein et du crâne parallèles. Le stop n’est guère marqué. La truffe est noire et de taille moyenne.<br>
+					<span class="gras">Ses yeux :</span> de taille moyenne, ni trop enfoncés ni trop globuleux. Ils sont foncés et légèrement obliques.<br>
+					<span class="gras">Ses oreilles :</span> elles sont triangulaires, de taille moyenne. Elles sont dressées et possèdent une extrémité arrondie.<br>
+					<span class="gras">Sa queue :</span> elle est bien fournie à sa base mais va en s’effilochant. Elle est droite, ronde. Elle peut être recourbée de côté ou portée sur le dos.  
+				</p>
+			</div>				
+			<div class="row m-t4 m-b2" id="caractere">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Comportement de l'animal avec les autres</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					Il possède un tempérament apaisant. Il est fidèle à son maître et à sa famille adoptive. Il ne peut d’ailleurs pas s’en passer car il ne supporte pas la solitude tout en se montrant méfiant envers les étrangers. Ce qui en fait un très bon chien de compagnie doublé d'un gardien très alerte.  Il n’est pas pot-de-colle mais apprécie le contact avec son propriétaire. Il est très équilibré et intelligent. Il apprécie la présence de congénère tout comme il fait un excellent compagnon de jeux pour les enfants. Jamais agressif même avec les intrus qu’il préfèrera ignorer plutôt que de grogner. D’ailleurs, il n’aboie quasiment jamais.
+				</p>
+			</div>
+			<div class="row m-t4 m-b2" id="education">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Education de L'Eurasier</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					L'Eurasier doit être éduqué avec fermeté, mais sans aucune forme de brutalité.  L’Eurasier doit comprendre un ordre pour l’exécuter sans broncher. Il peut se montrer un peu têtu mais écoute généralement bien ce qu’on lui demande. L’éducation est assez facile à condition qu’elle soit débutée tôt. C’est un chien très sensible qui a besoin de calme et d’une règle assez claire. Il doit comprendre qu’il n’est pas en position de dominant face à son maître. Par ailleurs, il convient de le sociabiliser le plus tôt possible pour qu’il ne développe aucune crainte envers les étrangers.
+				</p>
+			</div>
+			<div class="row m-t4 m-b2">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Conditions de vie de L'Eurasier</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					L'Eurasier apprécie le confort que lui offre l'intérieur de la maison, parmi les membres de sa famille, mais il préférera toujours disposer d'un grand jardin clôturé pour y évoluer librement. Il s'adapte parfaitement à un cadre de vie urbain tant qu'il est suffisamment promené et stimulé. La vie en appartement doit être proscrite pour l’Eurasier, qui apprécie surtout les grands espaces pour pouvoir se défouler et se dépenser physiquement. ne maison avec jardin semble être la meilleure solution pour qu’il puisse s’épanouir. Dans tous les cas, l’Eurasier doit pouvoir compter sur la présence de sa famille car, malgré son indépendance, il ne supporte pas la solitude.
+				</p>
+			</div>
+			<div class="row m-t4 m-b2">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Santé de votre compagnon</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					Chien de grande taille, l’Eurasier est sujet à la dysplasie de la hanche, comme tous les canidés de son genre. Il est ainsi important de modérer son activité physique, surtout dans ses premières années, afin de lui permettre une croissance des plus normales. Par ailleurs, il est très solide et ne présente aucune pathologie héréditaire et n’est sujet à aucune autre maladie. Son poil double et dense lui confère une très bonne protection face au froid et aux intempéries.<br>
+					L'espérance de vie d'un Eurasier se situe, en moyenne, entre 11 ans et 13 ans.
+				</p>
+			</div>
+			<div class="row m-t4 m-b2" id="entretien">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Entretien et hygiène de votre chien</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					Bien que sa robe soit très fournie, l'Eurasier n'est pas particulièrement un chien difficile à entretenir au quotidien. Il est sujet à une mue, principalement au printemps, durant laquelle il peut perdre beaucoup de poils.
+				</p>
+				<p>
+					Il est recommandé de brosser le chien une fois par semaine en utilisant une brosse de type carde. Durant la mue, les brossages deviennent plus fréquents (quasiment quotidiens), avec le recours à l'étrille pour éliminer un maximum de poils morts. Il peut être lavé jusqu'à 2 fois par an (pas plus) avec un shampoing adapté.
+				</p>
+			</div>
+			<div class="row m-t4 m-b2" id="prix">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Prix et budget du chien</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					Le prix d'achat d'un Eurasier se situe entre 900€ et 1300€.<br>
+					Le coût d'entretien annuel d'un Eurasier se situe entre 1300€ et 1350€.
+				</p>
+			</div>
+			<div class="row m-t4 m-b2" id="alimentation">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Alimentation de L'Eurasier</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					L’alimentation de l’Eurasier est des plus basiques. Son régime alimentaire se compose exclusivement de croquettes de haute qualité, qu’il conviendra de rationaliser en un repas (le soir) ou 2 (un léger le matin et un plus conséquent le soir).
+				</p>
+			</div>
+			<div class="row m-t4 m-b2">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Activité physique de L'Eurasier</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					Doté d’un tempérament calme, l’Eurasier doit être sorti quotidiennement. Des balades plus ou moins longues sont indispensables pour qu’il puisse se dépenser physiquement et psychiquement. Son bien-être n’en sera que plus important.
+				</p>
+			</div>
+		</section>
+		<footer class="fondNoir">
+			<div class="container">
+				<div class="row  justify-content-around relative">
+					<!--ajouter le Shiba ici-->
+					<div class="absolute shibaDroite"><!--Shiba-->
+						<a href="#haut"><img class="img-fluid" data-toggle="tooltip" data-placement="left" title="Je vous accompagne jusqu'en haut ?" src="img/0shiba.png" alt=""></a>
+					</div>
+					<div class="col-6 center">
+						<p><a href="plan.html">Plan du site</a></p>
+						<p><a href="mentionsLegals.html">Mentions légales</a></p>
+						<hr class="fondBlanc">
+						<p><a href="contact.html#contact">38 rue des sapin 88210 Saint Stail</a></p> <!--lien redirigent vers un carte google maps? ou vers la page contact-->
+						<p>
+							<img src="ico/0marquednegatif28x28.png" alt="">
+							<a href="#">Les meutes des Forets Vosgiennes</a>
+						</p>
+					</div>
+					<div class="col-4 icone d-flex align-items-center justify-content-around">
+						<a href="#"><img src="ico/Facebook.png" alt=""></a>
+						<a href="#"><img src="ico/Instagrame.png" alt=""></a>
+						<a href="#"><img src="ico/Twitter.png" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

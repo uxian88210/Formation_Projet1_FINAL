@@ -1,0 +1,16 @@
+1 = Accueil
+2 = Espèces
+3 = Galerie
+4 = Chiots
+5 = Services
+6 = Infos / Contact
+
+7 = Chiens primitif
+
+8 = Husky
+9 = Chiba Inu
+10 = Chow-Chow
+11 = Eurasier
+
+12 = mentions legales
+13 = plan du site

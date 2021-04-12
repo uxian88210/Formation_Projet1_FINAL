@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="FR">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Le Husky</title>
+		<link rel="icon" type="image/png" sizes="16x16" href=" img/0logoOnglet.png">
+		<!--fichier css-->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/mainResp.css">
+		<!--fichier js et intergration J.quary-->
+		<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+		<script src="js/bootstrap.bundle.js"></script>
+	</head>
+	<body>
+		<header class="relative mina" id="haut"><!-- image sur toute la largeur-->
+			<figure class="text-center mobilebackground">	
+				<img class="img-fluid ombre mobileCollapse" src="img/8accueil.jpg" alt="">
+			</figure>
+			<div class="absolute menu">
+				<div class="bleu70">
+					<div class="container containerAccueil"> <!--icone + menu de navigation-->
+						<div class="row rectificationRow">
+							<a class="col-1 justify-content-center rectificationMenu" href="index.html"><img class="logo" src="img/0logo.png" alt=""/></a>
+							<div class="col-10 rectificationMenu">
+								<div class="container menucentrer">
+									<h1 class="text-center">Les meutes des Forets Vosgiennes</h1>
+									<nav class="navbar navbar-expand-lg">
+										<span class="navbar-brand"></span> <!--laisse le bouton a gauche si pas de navbar-brand-->
+										<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+										  	<span class="navbar-toggler-icon"></span>
+										</button>
+										<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+											<ul class="navbar-nav text-center">
+												<li class="nav-item bleu70 d-flex align-items-center"><a class="nav-link" href="index.html">Accueil</a></li>
+												<li class="nav-item bleu70 d-flex align-items-center"><a class="nav-link" href="races.html">Quelles races ?</a></li>
+												<li class="nav-item bleu70 d-flex align-items-center"><a class="nav-link" href="galerie.html">Galerie</a></li>
+												<li class="nav-item bleu70 d-flex align-items-center"><a class="nav-link" href="chiots.html">Nos Chiots</a></li>
+												<li class="nav-item bleu70 d-flex align-items-center"><a class="nav-link" href="services.html">Nos services</a></li>
+												<li class="nav-item bleu70 d-flex align-items-center"><a class="nav-link" href="contact.html">Infos / Contact</a></li>
+											</ul>		<!--d-flex et align-item pour centrer les element dans les bouton lors de la redution de la page-->
+										</div>
+									</nav>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section class="container m-b2">
+			<div class="row justify-content-center">
+				<h2 class="titre mina">Le Husky</h2>
+			</div>
+			<div class="row">
+				<p>
+					De taille moyenne, le Husky Sibérien est un chien à l’allure élégante et souple. Hyperactif, il sert traditionnellement de chien de traîneau. C'est un chien qui sait se montrer indépendant, mais qui n’apprécie pas la solitude pour autant.
+				</p>
+			</div>
+		</section>
+		<div class="bleu70"> <!--la navbar-->
+			<div class="container m-b4">
+				<div class="row margeSousMenuEntier">
+					<div class="navbat navbar-expand-lg w-100 d-flex align-items-center">
+						<span class="navbar-brand"></span> <!--laisse le bouton a gauche si pas de navbar-brand-->
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						  	<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse w-100" id="navbar2">
+							<ul class="navbar-nav text-center w-100 justify-content-between">
+								<li class="col nav-item bleu70 d-flex align-items-center">
+									<a href="#caractere" class="navlink container">
+										<div class="row d-flex justify-content-center margeSousMenu">
+											<img src="ico/Icone_Caractere.png" alt="">
+										</div>
+										<div class="row d-flex justify-content-center">
+											<p>Caractere</p>
+										</div>
+									</a>
+								</li>
+								<li class="col nav-item bleu70 d-flex align-items-center">
+									<a href="#education" class="navlink container">
+										<div class="row d-flex justify-content-center margeSousMenu">
+											<img src="ico/Icone_Education.png" alt="">
+										</div>
+										<div class="row d-flex justify-content-center">
+											<p>Education</p>
+										</div>
+									</a>
+								</li>
+								<li class="col nav-item bleu70 d-flex align-items-center">
+									<a href="#entretien" class="navlink container">
+										<div class="row d-flex justify-content-center margeSousMenu">
+											<img src="ico/Icone_Entretien.png" alt="">
+										</div>
+										<div class="row d-flex justify-content-center">
+											<p>Entretien</p>
+										</div>
+									</a>
+								</li>
+								<li class="col nav-item bleu70 d-flex align-items-center">
+									<a href="#prix" class="navlink container">
+										<div class="row d-flex justify-content-center margeSousMenu">
+											<img src="ico/Icone_prix.png" alt="">
+										</div>
+										<div class="row d-flex justify-content-center">
+											<p>Prix</p>
+										</div>
+									</a>
+								</li>
+								<li class="col nav-item bleu70 d-flex align-items-center">
+									<a href="#alimentation" class="navlink container">
+										<div class="row d-flex justify-content-center margeSousMenu">
+											<img src="ico/Icone_Alimentation.png" alt="">
+										</div>
+										<div class="row d-flex justify-content-center">
+											<p>Alimentation</p>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>			
+			</div>
+		</div> <!--Fin de la navbar secondaire-->
+		<div class="container">
+			<div class="row">
+				<div class="col-6">
+					<img class="img-fluid" src="img/8general.jpg" alt="">
+				</div>
+				<div class="col-6">
+					<div class="row d-flex justify-content-between">
+						<div class="col-4">
+							<div class="row">
+								<div class="col">
+									<div class="row">
+										<h6 class="mina">Type de poil :</h6>
+									</div>
+									<div class="row">
+										<p>
+											Mi-long
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<div class="row">
+										<h6 class="mina">Gabarit :</h6>
+									</div>
+									<div class="row">
+										<p>
+											Moyen
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-4">
+							<div class="row">
+								<div class="col">
+									<div class="row">
+										<h6 class="mina">Origine :</h6>
+									</div>
+									<div class="row">
+										<p>
+											Etat-Unis
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<div class="row">
+										<h6 class="mina">Forme de la tête :</h6>
+									</div>
+									<div class="row">
+										<p>
+											Ronde
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row justify-content-center">
+						<h3>Poids et Tailles :</h3>
+					</div>
+					<div class="row">
+						<table class="table">
+							<thead>
+								<tr>
+							    	<th scope="col" class="mina">Sexe</th>
+							    	<th scope="col" class="mina">Poid</th>
+							    	<th scope="col" class="mina">Taille</th>
+							 	</tr>
+							</thead>
+							<tbody>
+								<tr>
+							    	<th scope="row" class="mina">Female</th>
+							    	<td>De 16 kg à 23 kg</td>
+							    	<td>De 50 cm à 56 cm</td>
+								</tr>
+								<tr>
+							   		<th scope="row" class="mina">Male</th>
+							   		<td>De 20 kg à 30 kg</td>
+							    	<td>De 53 cm à 60 cm</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+		<section class="container m-b16">
+			<div class="row m-t4 m-b2">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Historique de la race Husky</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					Comme son nom l’indique le Husky Sibérien est originaire de Sibérie. Une région connue pour son froid. A la base, leur apparition est due aux Indiens Chukchies qui souhaitaient disposer de chiens capables de tirer leurs traîneaux.
+				</p>
+				<p>
+					Leur légende associe la naissance du Husky de Sibérie au fruit de l’amour entre un loup et la lune. Ce qui explique pourquoi il a l’allure d’un loup doté d’une queue en forme de croissant de lune. Au début du 20e siècle, un marchand de fourrure d’origine russe importe les premiers Huskies Sibériens en Alaska pour prendre part à une course de 653 km. Cette race a été officiellement reconnue en 1966.
+				</p>
+			</div>
+			<div class="row m-t4 m-b2">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Particularités physiques du chien</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					<span class="gras">Son poil :</span> droit et d’une longueur moyenne, il forme une fourrure épaisse.<br>
+					<span class="gras">Sa couleur :</span> la robe peut être noire, blanche, grise, sable ou d’une tout autre couleur. Les taches et marques faciales caractérisent les individus bicolores.<br>
+					<span class="gras">Sa tête :</span> elle est de forme ronde. Le museau, proportionnel au crâne, s’affine en se rapprochant de la truffe. <br>
+					<span class="gras">Ses oreilles :</span> triangulaires, mais légèrement arrondies à la pointe, elles sont dressées, attachées haut et assez rapprochées. Elles sont garnies, épaisses et de taille moyenne.<br>
+					<span class="gras">Ses yeux :</span> légèrement obliques, elles sont en forme d’amande. Ils peuvent être bleus, marrons ou présenter des iris de couleurs différentes.<br>
+					<span class="gras">Son corps :</span> modérément compact, il est très bien proportionné. Sa musculature est bien développée.<br>
+					<span class="gras">Sa queue :</span> recourbée sans former une boucle, elle ne retombe ni sur les côtés ni sur le dos.
+				</p>
+			</div>				
+			<div class="row m-t4 m-b2" id="caractere">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Comportement de l'animal avec les autres</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					Le Husky de Sibérie possède une intelligence au-dessus de la moyenne. Bien qu’hyperactif, il sait se montrer doux et docile. Il est d’une grande fidélité à son maître, sans pour autant se montrer possessif comme peuvent l’être des chiens de garde. Il peut être placé dans la catégorie des chiens de garde, même s’il n’est pas forcément très méfiant à l’encontre d’étrangers.
+				</p>
+				<p>
+					Il n’est également pas agressif envers ses congénères. Particulièrement gentil, le Husky convient parfaitement aux familles avec enfant. Il est indépendant mais pas solitaire puisqu’il a l’habitude de vivre en groupe. Ainsi, son maître doit être constamment présent à ses côtés.
+				</p>
+			</div>
+			<div class="row m-t4 m-b2" id="education">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Education du Husky</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					L’éducation du Husky Sibérien doit commencer avant qu’il n’atteigne l’âge de 6 mois parce que cette race devient très rapidement adulte. C’est lui qui décide si ses maîtres sont dignes de lui ou pas. D’où l’intérêt de le traiter avec respect, affection et cohérence dès le départ. Faute de quoi, il sera difficile à contrôler et aura même tendance à fuguer. L’éducation du Husky de Sibérie passe donc forcément par la patience et le calme, sans pour autant devoir céder à tous les caprices du chien.
+				</p>
+			</div>
+			<div class="row m-t4 m-b2">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Conditions de vie d'un Husky</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					Le Husky Sibérien peut s'adapter à la plupart des modes de vie à condition de lui donner fréquemment la possibilité de se dépenser. S'il reste trop longtemps enfermé, il risque de s'ennuyer et de développer un comportement destructeur.
+				</p>
+			</div>
+			<div class="row m-t4 m-b2">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Santé de votre compagnon</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					Les parasites comme les tiques et puces s’attaquent fréquemment au Husky Sibérien. Mais c’est un chien d’une grande robustesse qui supporte aussi bien les fortes chaleurs que les températures frisant -40°C. Son espérance de vie est d’environ 13 ans. Il peut être affecté par des maladies oculaires (cataracte, atrophie rétinienne) et de troubles digestifs. Chien de grande taille, le Husky sibérien peut également être sujet à la dysplasie de la hanche qui touche les canidés de sa morphologie.<br>
+					L'espérance de vie d'un Husky Sibérien se situe, en moyenne, entre 11 ans et 13 ans.
+				</p>
+			</div>
+			<div class="row m-t4 m-b2" id="entretien">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Entretien et hygiène de votre chien</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					Le Husky Sibérien mue 2 fois par an. Ce changement de fourrure peut durer 3 semaines ou plus, mais en dehors de cette période, c’est un chien qui ne perd pas beaucoup de poils.
+				</p>
+				<p>
+					Il a besoin d’un brossage hebdomadaire, mais le toilettage est formellement interdit. Seuls les poils qui poussent entre les doigts ou couvrent les pieds peuvent être égalisés. Ce qui est également valable pour la moustache.
+				</p>
+			</div>
+			<div class="row m-t4 m-b2" id="prix">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Prix et budget du chien</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					Le prix d'achat d'un Husky Sibérien se situe entre 1000€ et 1500€.<br>
+					Le coût d'entretien annuel d'un Husky Sibérien se situe entre 1200€ et 1300€.
+				</p>
+			</div>
+			<div class="row m-t4 m-b2" id="alimentation">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Alimentation du Husky</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					Le régime alimentaire du husky doit être riche en protéines et en lipides pour répondre à ses besoins énergétiques assez importants. Constamment en mouvement, il a besoin d’une alimentation adaptée à son mode de vie. Des croquettes de haute qualité font la plupart du temps l’affaire. Il est conseillé de se rapprocher d’un vétérinaire pour adapter cette alimentation.
+				</p>
+			</div>
+			<div class="row m-t4 m-b2">
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+				<div class="col-6">
+					<h4 class="text-center mina">Activité physique du Husky</h4>
+				</div>
+				<div class="col-3">
+					<img class="img-fluid" src="img/0patte.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					Le Husky Sibérien a besoin de s’activer physiquement. Il faut donc envisager plusieurs sorties par jour ou à défaut, une promenade qui peut durer de très longues minutes. Il est sportif et très endurant.
+				</p>
+			</div>
+		</section>
+		<footer class="fondNoir">
+			<div class="container">
+				<div class="row  justify-content-around relative">
+					<!--ajouter le Shiba ici-->
+					<div class="absolute shibaDroite"><!--Shiba-->
+						<a href="#haut"><img class="img-fluid" data-toggle="tooltip" data-placement="left" title="Je vous accompagne jusqu'en haut ?" src="img/0shiba.png" alt=""></a>
+					</div>
+					<div class="col-6 center">
+						<p><a href="plan.html">Plan du site</a></p>
+						<p><a href="mentionsLegals.html">Mentions légales</a></p>
+						<hr class="fondBlanc">
+						<p><a href="contact.html#contact">38 rue des sapin 88210 Saint Stail</a></p> <!--lien redirigent vers un carte google maps? ou vers la page contact-->
+						<p>
+							<img src="ico/0marquednegatif28x28.png" alt="">
+							<a href="#">Les meutes des Forets Vosgiennes</a>
+						</p>
+					</div>
+					<div class="col-4 icone d-flex align-items-center justify-content-around">
+						<a href="#"><img src="ico/Facebook.png" alt=""></a>
+						<a href="#"><img src="ico/Instagrame.png" alt=""></a>
+						<a href="#"><img src="ico/Twitter.png" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

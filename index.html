@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="FR">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Accueil</title>
+		<link rel="icon" type="image/png" sizes="16x16" href=" img/0logoOnglet.png">
+		<!--fichier css-->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/responsiveTab.css">
+		<link rel="stylesheet" type="text/css" href="css/mainResp.css">
+		<!--fichier js et intergration J.quary-->
+		<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+		<script src="js/bootstrap.bundle.js"></script>
+	</head>
+	<body>
+		<header class="relative mina" id="haut"><!-- image sur toute la largeur-->
+			<figure class="text-center mobilebackground mobileCollapse">	
+				<img class="img-fluid ombre" src="img/1accueil.jpg" alt="">
+			</figure>
+			<figure class="text-center mobilebackground webCollapse tabletteCollapse">	
+				<img class="img-fluid ombre" src="img/mobile414/1accueil.png" alt="">
+			</figure>
+			<div class="absolute menu">
+				<div class="bleu70">
+					<div class="container containerAccueil"> <!--icone + menu de navigation-->
+						<div class="row rectificationRow">
+							<a class="col-2 justify-content-center rectificationMenu mobileCollapse" href="index.html"><img class="logo" src="img/0logo.png" alt=""/></a>
+							<div class="col-10 rectificationMenu">
+								<div class="container menucentrer d-flex justify-content-center flex-column">
+									<h1 class="text-center">Les meutes des Forets Vosgiennes</h1><br>
+									<nav class="navbar navbar-expand-lg">
+										<span class="navbar-brand"></span> <!--laisse le bouton a gauche si pas de navbar-brand-->
+										<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+										  	<span class="navbar-toggler-icon"></span>
+										</button>
+										<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+											<ul class="navbar-nav text-center">
+												<li class="nav-item bleu70 d-flex align-items-center justify-content-center"><a class="nav-link w-100" href="index.html">Accueil</a></li>
+												<li class="nav-item bleu70 d-flex align-items-center justify-content-center"><a class="nav-link w-100" href="races.html">Quelles races ?</a></li>
+												<li class="nav-item bleu70 d-flex align-items-center justify-content-center"><a class="nav-link w-100" href="galerie.html">Galerie</a></li>
+												<li class="nav-item bleu70 d-flex align-items-center justify-content-center"><a class="nav-link w-100" href="chiots.html">Nos Chiots</a></li>
+												<li class="nav-item bleu70 d-flex align-items-center justify-content-center"><a class="nav-link w-100" href="services.html">Nos services</a></li>
+												<li class="nav-item bleu70 d-flex align-items-center justify-content-center"><a class="nav-link w-100" href="contact.html">Infos / Contact</a></li>
+											</ul>		<!--d-flex et align-item pour centrer les element dans les bouton lors de la redution de la page-->
+										</div>
+									</nav>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<p class="noir50 blanc accroche mobileCollapse tabletteCollapse ">Venez adopter votre nouveau compagnon chez nous !</p>
+				</div>
+			</div>
+			<div class="relative container containerAccueil mobileCollapse tabletteCollapse">
+				<div class="posRencontre btnRencontreTaille absolute btnGris d-flex justify-content-center align-items-center"><!--bouton "Rencontrez-nous-->
+					<a href="contact.html#contact" class="btn btnRencontre blanc">Rencontrez-nous</a>
+				</div>
+			</div>
+		</header>
+		<section class="container"> <!--partie notre elevage + aside-->
+			<div class="row justify-content-center">
+				<h2 class="titre mina">Notre élevage</h2>
+			</div>
+			<div class="row colonne">
+				<div class="col-9 order2 colonne12">
+					<div><!--1ere partie avec l'image et le 1er texte-->
+						<img class="float-left img-fluid mobile-m-b2" src="img/1eurasier.jpg" alt="">
+						<div>
+							<p>Les meutes des forets vosgiennes vous souhaitent la bienvenue dans leur élevage  inscrit au livre des origines françaises (LOF)
+							</p>
+							<p>Envie d’un chiot ?</p>
+							<p>Un chiot de quel espèce ? Un mâle ou une femelle ? Plutôt sportif ou pas trop ? Dynamique ou très calme ? Un chiot gris blanc ? Un noir et blanc ? Un blanc ? Un chocolat / roux ? Des yeux bleus ? Des yeux marrons ? Des yeux vairons ?
+							</p>
+							<p>Où va-t-il dormir ? Que mange t-il ? Comment gérer sa solitude ?</p>
+						</div>
+					</div>
+					<div><!--2eme partie avec le 2eme texte-->
+						<p>
+							Eh oui, plein de questions et de choix se bousculent dans votre esprit avant l’adoption de votre chiot ...
+						</p>
+						<p>
+							Avez-vous pris le temps de connaitre les caractéristiques et besoins de ces races si particulières que sont les Sibérien, les Shiba-Inu, les Eurasier et les Chow-Chow ?
+						</p>
+						<p>
+							Prenez le temps de découvrir nos fiches conseils sur l’alimentation, l’éducation, le sport….. et notre élevage (meute, chiots, éthique, installations…)
+						</p>
+						<p>
+							Bon voyage dans le monde merveilleux des chiens primitifs !
+						</p>
+					</div>
+				</div>
+				<aside class="col-3 order1 colonne12 mobile-m-b2">
+					<div class="ocre colonne mobileVedette"><!--pour le background-->
+						<h2 class="mina">En Vedette :</h2>
+						<p>Helia et Loki<br>
+						nés cette année :</p>
+						<img class="img-fluid mobileimg paddingBottom" src="img/1chiot1.jpg" alt="">
+						<img class="img-fluid mobileimg" src="img/1chiot2.jpg" alt="">
+					</div>
+				</aside>
+			</div>
+			<div class="row justify-content-center"> <!--pour les empreinte de pas-->
+				<img class="img-fluid" src="img/0patte.png" alt="">
+			</div>
+		</section>
+		<div class="container"><!--Partie avec la video, le mini texte et le bouton-->
+			<div class="row colonne">
+				<div class="row justify-content-center webCollapse mobile-m-b2 rectificationRow">
+					<a href="chiots.html" class="btn btnOcre blanc index5 btnChiotTaillle">Découvrez nos chiots !</a>
+				</div>
+				<div class="col-9 relative iframe colonne12">
+					<iframe src="https://www.youtube.com/embed/SxFgTVO-z3Q" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+					</iframe>
+					<!--<video src="video.avi"></video> video A TROUVER et télécharger-->
+				</div>
+				<div class="col-3 textVideo colonne12">
+					<p>
+						Bébé Husky apprend à descendre des escaliers.
+					</p>
+					<div class="row justify-content-center mobileCollapse">
+						<a href="chiots.html" class="btn btnOcre blanc index5 btnChiotTaillle">Découvrez nos chiots !</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="fondNoir">
+			<div class="container">
+				<div class="row  justify-content-around relative">
+					<!--ajouter le Shiba ici-->
+					<div class="absolute shibaAccueil mobileCollapse"><!--Shiba-->
+						<a href="#haut"><img class="img-fluid" data-toggle="tooltip" data-placement="left" title="Je vous accompagne jusqu'en haut ?" src="img/1shiba.png" alt=""></a>
+					</div>
+					<div class="absolute mobileShibaDroite webCollapse"><!--Shiba mobile-->
+						<a href="#haut"><img class="img-fluid" data-toggle="tooltip" data-placement="left" title="Je vous accompagne jusqu'en haut ?" src="img/mobile414/0shiba.png" alt=""></a>
+					</div>
+					<div class="col-6 center">
+						<p><a href="plan.html">Plan du site</a></p>
+						<p><a href="mentionsLegals.html">Mentions légales</a></p>
+						<hr class="fondBlanc">
+						<p><a href="contact.html#contact">38 rue des sapin 88210 Saint Stail</a></p> <!--lien redirigent vers un carte google maps? ou vers la page contact-->
+						<p>
+							<img src="ico/0marquednegatif28x28.png" alt="">
+							<a href="#">Les meutes des Forets Vosgiennes</a>
+						</p>
+					</div>
+					<div class="col-4 icone d-flex align-items-center justify-content-around colonne">
+						<a href="#"><img src="ico/Facebook.png" alt=""></a>
+						<a href="#"><img src="ico/Instagrame.png" alt=""></a>
+						<a href="#"><img src="ico/Twitter.png" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

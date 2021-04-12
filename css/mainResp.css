@@ -1,0 +1,227 @@
+@media screen and (min-width: 992px)
+{
+	.webCollapse
+	{
+		display: none !important;
+	}
+}
+
+@media screen and (max-width: 414px) /*de base 320 mais fait avec 414px pour tester sur mon mobile.*/
+{
+
+	.mobileCollapse
+	{
+		display: none !important;
+	}
+
+		/*reduire la taille des titre*/
+
+	h1
+	{
+		font-size: 1.5rem;
+	}
+
+	h2
+	{
+		font-size: 1.75rem;
+	}
+		/*pour changer l'ordre*/
+
+	.order1
+	{
+		order: 1;
+	}
+
+	.order2
+	{
+		order: 2;
+	}
+
+	.order3
+	{
+		order: 3;
+	}
+
+	.mobile-m-b8
+	{
+		margin-bottom: 8rem;
+	}
+
+	.mobile-m-b4
+	{
+		margin-bottom: 4rem;
+	}
+
+	.mobile-m-b2
+	{
+		margin-bottom: 2rem;
+	}
+
+	.mobile-m-b1
+	{
+		margin-bottom: 1rem;
+	}
+
+	.mobile-m-t8
+	{
+		margin-top: 8rem;
+	}
+
+	.mobile-m-t4
+	{
+		margin-top: 4rem;
+	}
+
+	.mobile-m-t2
+	{
+		margin-top: 2rem;
+	}
+
+	.mobile-p-t1
+	{
+		padding-top: 1rem;
+	}
+
+	.mobileText-center
+	{
+		text-align: center;
+	}
+	/*IMAGE D'ACCUEIL*/
+		/*en 1er, afficher une image d'accueil rogner*/
+
+	.mobilebackground
+	{
+		/*version 576px*//*
+		width: 576px;
+		height: 1397px;
+		background-image: url(../img/mobile576/1accueil.png);
+		/*version 320px*
+		width: 414px;
+		height: 1004px;*/
+		background-repeat: no-repeat;
+		background-size: cover;
+
+	}
+
+		/*redimentionner la navbar*/
+
+	.rectificationMenu
+	{
+		max-width: 100%;
+		flex: 0 0 100%;
+	}
+		/**/
+
+
+	/*deplacer les element pour les qu'il ne soit plus cote à cote.*/
+    	/*mise en colonne*/
+
+    .colonne
+    {
+    	flex-direction: column;
+    }
+
+     	/*largeur des nouvelle colonne*/
+
+    .colonne12
+    {
+    	flex: 0 0 100%;
+    	max-width: 100%;
+    }
+
+    .colonne6
+    {
+    	flex: 0 0 50%;
+    	max-width: 50%;
+    }
+
+    .mobileVedette
+    {
+    	text-align: center;
+    }
+
+   .mobileimg
+	{
+	width: 225px;
+	height: 163px;
+	}
+
+		/*rectification margin top du paragraphe sous la video*/
+
+	.textVideo p
+	{
+		margin-top: 0px;
+	}
+
+	/*rectification footer*/
+	.icone a img
+	{
+		width: 50px;
+		height: 50px;
+	}
+
+	.icone
+	{
+		padding-bottom: 0px;
+	}
+
+	.fondNoir
+	{
+		padding-top: 10px;
+	}
+
+		/*emplacement du Shiba*/
+
+
+		.mobileShibaGauche
+		{
+			top: -108px;
+			left: 30px;
+		}
+
+		.mobileShibaDroite
+		{
+			top: -108px;
+			right: 30px;
+		}
+
+		.mobileShibaMillieux
+		{
+			top:-108px;
+			right: 500px;
+		}
+
+
+		/*PAGE 2 MENU EN ABSOLUTE*/
+
+		.mobilAabsoluteMenu
+		{
+			position: absolute;
+		}
+
+
+		/*PAGE 3 GALERIE*/
+			/*voir fichier separer*/
+
+		/*PAGE CONTACT*/
+
+	.margesFormulaire
+	{
+		margin-right: 10px;
+		margin-left: 10px;
+		text-align: center;
+	}
+
+	.formulaire
+	{
+		font-size: 1rem;
+	}
+
+	.formulaireTextarea
+	{
+		font-size: 1rem;
+	}
+
+
+}
+
